@@ -5,10 +5,10 @@ const desktopMenu = document.querySelector("#idDesktopMenu");
 
 //** === Execute Code ===  */
 
-const showDesktop = () => {
+const toggleMenu = () => {
   if (desktopMenu) {
     desktopMenu.classList.toggle(`active`);
   }
 };
 
-userIcon.addEventListener("click", showDesktop);
+userIcon.addEventListener("click", toggleMenu);
