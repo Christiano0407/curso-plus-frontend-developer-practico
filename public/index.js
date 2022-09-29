@@ -2,6 +2,8 @@
 //** === === === === ===  vARIABLES === === === ===  === */
 const userIcon = document.querySelector(`#idNavUser`);
 const desktopMenu = document.querySelector("#idDesktopMenu");
+const menuMobileBurger = document.querySelector("#idMenuBurger");
+const idMenuMobile = document.querySelector("#idMobileMenu");
 
 //** === === === === === Execute Code ===  === === === === */
 //desktop.classList.add("visible");
@@ -14,3 +16,10 @@ const toggleMenu = () => {
 };
 
 userIcon.addEventListener("click", toggleMenu);
+
+/* const mobileMenu = () => {
+  if (idMenuMobile) {
+/idMenuMobile.classList.toggle("inactive");
+  }
+}; */
+//menuMobileBurger.addEventListener("click", mobileMenu);
