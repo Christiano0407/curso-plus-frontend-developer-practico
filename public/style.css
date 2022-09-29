@@ -153,6 +153,10 @@ nav {
     object-fit: cover;
 }
 
+.navbar-user figure img:active {
+    transform: scale(0.9);
+}
+
 /* === Desktop */
 .desktop-menu {
     width: 100px;
