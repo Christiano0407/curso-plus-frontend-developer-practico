@@ -133,6 +133,26 @@ nav {
     align-items: center;
 }
 
+.navbar-user {
+    margin: 0 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.navbar-user figure {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-user figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* === Desktop */
 .desktop-menu {
     width: 100px;
