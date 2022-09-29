@@ -1,13 +1,13 @@
  @media (max-width: 640px) {
-     .menu {
+     #idMenu {
          display: block;
      }
 
-     .navbar-left ul {
+     #idNavLeft ul {
          display: none;
      }
 
-     .navbar-email {
+     #idNavEmail {
          display: none;
      }
  }
