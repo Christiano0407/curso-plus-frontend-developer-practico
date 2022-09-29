@@ -7,7 +7,7 @@ const desktopMenu = document.querySelector("#idDesktopMenu");
 
 const toggleMenu = () => {
   if (desktopMenu) {
-    desktopMenu.classList.toggle(`active`);
+    desktopMenu.classList.toggle(`inactive`);
   }
 };
 
